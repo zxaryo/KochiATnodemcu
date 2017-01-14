@@ -6,7 +6,7 @@
 // data Accesspoint
 const char* ssid = "zx";
 const char* password = "poiuytrewq";
-const char* host = "zxdot.tk";
+const char* host = "kochiat.ml";
 const int port = 80;
 String value;
 
@@ -54,7 +54,7 @@ void setup()
   {
 
     Serial.println("connecton");
-    String data="?sender=akhbfa&value=";
+    String data="/update.php?sender=Afa&value=";
     data+=value;
     
     client.print(String("GET ") + data + " HTTP/1.1\r\n" +
